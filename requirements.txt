@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 streamlit
 tensorflow
-pillow
-=======
-streamlit
-tensorflow
-pillow
->>>>>>> 94484f80d5fc05badc798c3047e39ab0d591a7fd
 numpy
+Pillow
+matplotlib
+opencv-python
