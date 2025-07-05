@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
@@ -148,4 +147,4 @@ if uploaded_file is not None:
         ax.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
         ax.axis('equal')
         st.pyplot(fig)
->>>>>>> 94484f80d5fc05badc798c3047e39ab0d591a7fd
+
