@@ -31,7 +31,7 @@ uploaded_file = st.file_uploader("Choose an MRI image...", type=["jpg", "jpeg", 
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="Uploaded Image", use_column_width=True)
+    st.image(image, caption="Uploaded Image", use_container_width=True)
 
     resized_image = image.resize(IMG_SIZE)
     img_array = img_to_array(resized_image) / 255.0
